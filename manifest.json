@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon URL Copier",
+  "version": "1.0",
+  "permissions": ["contextMenus", "scripting", "clipboardWrite"],
+  "host_permissions": ["*://www.amazon.co.jp/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
